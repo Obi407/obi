@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+ <html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My first website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+    </head>
+
+    <body>
+      <header>
+        <h1>Personal website</h1>
+      </header>
+       <div class="summary">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nulla sequi, aut id rerum quae ab voluptatem hic laborum, sed, officiis dolores. Quasi autem dolorum eos officiis nemo deleniti doloribus!
+          </p>
+        </div>
+        <br>
+        <ul>
+          <li>family</li>
+          <li>education</li>
+          <li>work</li>
+        </ul>
+
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <tr>
+              <td></td>
+              <td>Obinna</td>
+              <td>obinna67@gmail.com</td>
+              <td>50</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        
+        <form>
+          <div>   
+            <label>first name</label>
+            <input id="name" type="text" name="first-name">
+          </div>
+            
+          <br>
+         <div>
+            <label>email</label>
+            <input id="email" type="email" name="email">
+         </div>
+          <br>
+         <div> 
+           <label>age</label>
+            <input id="age" type="text" name="age">
+          </div>
+           <br>
+
+          <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+          </div>
+
+           <br>
+
+          <div>
+            <label>Male</label>
+            <input type="checkbox" name="Male">
+         </div>
+         <div>
+            <label>Female</label>
+            <input type="checkbox" name="Female">
+         </div>
+            
+         <div>
+            <label>Relationship</label>
+            <select name="relationship">
+                <option value="maried">Married</option>
+                <option value="single">Single</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label>Primary school</label>
+            <input type="radio" name="Primary school">
+          </div>
+          <br>
+          <div>
+            <label>High-school</label>
+            <input type="radio" name="Education" value="High-school">
+          </div>
+          <br>
+          <div>
+            <label>University</label>
+            <input type="radio" name="Education" value="University">
+          </div>
+          <p id="err"></p>
+
+        </form>
+        <button id="btn">Submit</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+ </html>
